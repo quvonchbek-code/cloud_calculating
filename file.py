@@ -22,4 +22,4 @@ def ikkala_diagonal_yigindi(matrix: np.ndarray) -> tuple[int, int]:
     return asosiy + qarama_qarshi - matrix[4][4]
 
 print("Eng chetki hadlarining yig`indisi : ",chetki_yigindi(matrix))
-print("Giagonallarda joylashgan elementlar yig`indis : ",ikkala_diagonal_yigindi(matrix))
+print("Diagonallarda joylashgan elementlar yig`indis : ",ikkala_diagonal_yigindi(matrix))
